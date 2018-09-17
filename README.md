@@ -22,11 +22,11 @@
 </p>
 <p align="center">
     <a href="https://nai8.me">
-        <img src="https://nai8.me/images/logo.png" height="90" alt="https://nai8.me"/>
+        https://nai8.me"
     </a>
 </p>
 <p align="center">
-    <img src="https://nai8.me/images/qrcodes/xiaobao-qrcode.jpg" height="180" alt="北哥小报"/>
+    北哥小报
 </p>
 <p align="center">
     除了代码，还有诗和远方。扫码关注我的公众号。
@@ -43,7 +43,7 @@
 
 ## 安装（Installation）
 ```php
-$ composer require "abei2017/yii2-wx" -vvv
+$ composer require "fountion/yii2-wx" -vvv
 ```
 
 ## 配置（set）
@@ -96,7 +96,7 @@ return [
 yii2-wx采用单一接口驱动功能的思路，比如下面的代码将生成一个微信带参数的二维码。
 
 ```php
-use abei2017\wx\Application;
+use fountion\wx\Application;
 
 $conf = Yii::$app->params['wx']['mp'];
 $app = new Application(['conf'=>$conf]);
